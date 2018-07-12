@@ -1,0 +1,115 @@
+/* Change the max-width of the dialog */
+.ms-Dialog {
+  min-height: 650px;
+  max-height: 650px;
+  max-width: 750px;
+  min-width: 750px;
+}
+/* Make close button more visible */
+.ms-Dialog-buttonClose .ms-Icon.ms-Icon--Cancel {
+  color: #FFF;
+  font-size: 18px;
+}
+.ms-Icon.ms-Icon--Help {
+  color: #000;
+  font-size: 12px;
+}
+
+.ms-Pivot-content {
+	min-height: 400px;
+}
+
+.jc-dialog {
+  min-height: 250px;
+  max-height: 450px;
+  /*height: 450px;*/
+  overflow-y: auto;
+}
+
+.nocomp-dialog {
+  min-height: 250px;
+  max-height: 540px;
+  /*height: 450px;*/
+  overflow-y: auto;
+}
+
+#loc_nav, #loc_nav_comp {
+  padding-bottom: 5px;
+}
+
+.inner {
+  margin-left: auto;
+  margin-right: auto; 
+  width: 900px;
+}
+
+#mapid {
+  width: 1000px;
+  height: 750px;
+}
+.info {
+  padding: 6px 8px;
+  font: 16px/18px Arial, Helvetica, sans-serif;
+  background: white;
+  background: rgba(255,255,255,1);
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.info h4 {
+  margin: 0 0 15px;
+  color: blue;
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.main_column {
+  vertical-align: text-top;
+  width: 22%;
+}
+
+.loc_pics {
+  height: 300px;
+  max-width: 500px;
+  display: block;
+  margin: 0 auto;
+}
+
+.ms-Table thead th {
+  font-size: 15px;
+  font-weight: bold;
+}
+
+ul {
+    list-style-position: inside;
+    padding-left:0;
+}
+
+.loc_entry {
+  vertical-align: text-top;
+}
